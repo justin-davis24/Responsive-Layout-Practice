@@ -21,13 +21,13 @@ nav{
 nav ul{
     display: flex;
     list-style: none;
-    justify-content: space-evenly;
 }
 
 nav .button{
     border: 2px solid #5a6372;
     text-decoration: none;
     color: white;
+    justify-content: space-evenly;
 }
 
 .active{
@@ -43,9 +43,17 @@ nav .button{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 aside{
     position: fixed;
     
 }
+
+a img {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+}
+
